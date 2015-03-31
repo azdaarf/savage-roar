@@ -19,7 +19,7 @@ class SavageRoar extends JFrame {
 
 	ActionListener aMB = new addMinionButton();
 
-	
+//	aids
 	SavageRoar(){
 
 		super("Savage Roar Calculator");
