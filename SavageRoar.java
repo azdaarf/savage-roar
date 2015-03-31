@@ -137,6 +137,8 @@ class SavageRoar extends JFrame {
 		}
 	}
 
+	
+	
 	class addMinionButton implements ActionListener{
 		public void actionPerformed(ActionEvent aev){
 			JButton b = (JButton)aev.getSource();
@@ -184,7 +186,13 @@ class SavageRoar extends JFrame {
 		}
 	}
 
-	void removeMinion (int number){
+	
+	/**
+	 * Removes a minion from the frame.
+	 * 
+	 * @param the id of the minion to be removed.
+	 */
+	private void removeMinion (int number){
 		minionList.remove(number);
 		center.remove(number);
 		minionCount--;
