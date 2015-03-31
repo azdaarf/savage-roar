@@ -18,7 +18,7 @@ class SavageRoar extends JFrame {
 	int minionCount = 0;
 
 	ActionListener aMB = new addMinionButton();
-
+// aids2
 //	aids
 	SavageRoar(){
 
